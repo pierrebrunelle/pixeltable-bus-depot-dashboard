@@ -2,7 +2,7 @@
 
     pxt schema update app.py depots
     python seed.py                                # local catalog 'depots'
-    DEPOT_CATALOG=pxt://<org>:<db>/depots python seed.py # same rows into a Pixeltable Cloud database
+    DEPOT_CATALOG=pxt://<org>:<db> python seed.py # same rows into a Pixeltable Cloud database
 
 Six battery buses at the North depot run newer logger firmware that writes telemetry as
 'soc:81 temp:34.5 faults:' instead of 'soc=81;temp=34.5;faults='. The first version of

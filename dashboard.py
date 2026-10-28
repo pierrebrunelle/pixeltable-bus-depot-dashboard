@@ -1,7 +1,7 @@
 """Build the depot operations dashboard as output/dashboard.md and output/dashboard.html.
 
     python dashboard.py                                # local catalog 'depots'
-    DEPOT_CATALOG=pxt://<org>:<db>/depots python dashboard.py # read a Pixeltable Cloud database
+    DEPOT_CATALOG=pxt://<org>:<db> python dashboard.py # read a Pixeltable Cloud database
 
 Every number comes from a Pixeltable query: group_by aggregates (count, sum, mean, max and
 the percentile/on_time_rate UDAs from udfs.py), distinct() lookups, a windowed running total,
